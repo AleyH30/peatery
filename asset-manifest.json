@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/peatery/static/css/main.21b4dafc.css",
-    "main.js": "/peatery/static/js/main.0ffc9b29.js",
+    "main.js": "/peatery/static/js/main.c7d7da6a.js",
+    "static/media/promo.mp4": "/peatery/static/media/promo.0cfa83378b99a186b137.mp4",
     "static/media/roasted-shishito-peppers.jpg": "/peatery/static/media/roasted-shishito-peppers.7d91e7cc39334902389b.jpg",
     "static/media/Steak-Potatoes.jpg": "/peatery/static/media/Steak-Potatoes.93a14187521e36a7165a.jpg",
     "static/media/surfnturf.jpg": "/peatery/static/media/surfnturf.c4e6f59566e0293def6d.jpg",
@@ -10,10 +11,10 @@
     "static/media/pan-roasted-salmon.jpg": "/peatery/static/media/pan-roasted-salmon.3549da76f452a7ecbfe7.jpg",
     "index.html": "/peatery/index.html",
     "main.21b4dafc.css.map": "/peatery/static/css/main.21b4dafc.css.map",
-    "main.0ffc9b29.js.map": "/peatery/static/js/main.0ffc9b29.js.map"
+    "main.c7d7da6a.js.map": "/peatery/static/js/main.c7d7da6a.js.map"
   },
   "entrypoints": [
     "static/css/main.21b4dafc.css",
-    "static/js/main.0ffc9b29.js"
+    "static/js/main.c7d7da6a.js"
   ]
 }
