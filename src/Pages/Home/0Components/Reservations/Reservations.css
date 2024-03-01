@@ -1,0 +1,15 @@
+.reservations{
+    scroll-margin-top: 100px;
+    margin: 0 auto;
+    width: 90%;
+}
+.reservations h3{
+    font-size: 20px;
+    text-align: center
+}
+.reservations p{
+    margin-top: 1%;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+}

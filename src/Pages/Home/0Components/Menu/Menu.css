@@ -1,0 +1,48 @@
+.menu-container{
+    text-align: center;
+    margin: 3% auto;
+    width: 100%;
+}
+.menu-visibility-btn {
+    font-size: 18px;
+    color: black;
+    border: solid;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    width: 250px;
+    height: 65px;
+}
+.menu-items-container{
+    width: 70%;
+    margin: 5% auto;
+    font-family: 'Tangerine';
+    font-size: 30px;
+    border: solid 0.5px black;
+    padding: 20px;
+}
+.col-2{
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.menu-sect{
+    margin-top: 30px;
+}
+.menu-item{
+    min-width: 250px;
+    border: solid 0.5px black;
+    padding: 10px 5px;
+}
+
+@media (max-width: 820px) {
+    .menu-items-container{
+        height: 75vh;
+        overflow-y: scroll;
+    }
+}
+

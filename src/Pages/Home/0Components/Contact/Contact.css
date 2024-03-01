@@ -1,0 +1,85 @@
+.contact-container {
+    scroll-margin-top: 100px;
+    margin-top: 2%;
+    width: 100%;
+    color: black;
+}
+.contact-container h4{
+    text-align: center;
+    font-size: 18px;
+}
+.contact-contents{
+    width: 100%;
+    margin: 1% auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+}
+.contact-form{
+    width: 500px;
+    padding: 20px;
+}
+.contact-info{
+    width: 300px;
+    font-size: 16px;
+    padding: 20px;
+}
+.contact-info p{
+    line-height: 1.6;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.input-group{
+    flex-basis: 45%;
+}
+.input-group input{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+}
+.input{
+    width: 100%;
+}
+.input input{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    padding: 5px;
+}
+label{
+    margin-bottom: 9px;
+    display: block;
+}
+.submit-btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    margin: 1.5% auto;
+    border: solid 0.5px;
+    font-size: 16px;
+}
+.signature{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 5%;
+}
+
+@media (max-width: 725px){
+    .contact-contents{
+        flex-wrap: wrap;
+    }
+    .contact-info{
+        text-align: center;
+    }
+}

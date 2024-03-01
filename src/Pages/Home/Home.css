@@ -1,0 +1,14 @@
+.break-icon{
+    margin: 5% auto;
+    font-size: 30px;
+    color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.dining-img{
+    width: 100%;
+}
+.dining-img img{
+    width: 100%;
+}

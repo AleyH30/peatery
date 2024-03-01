@@ -1,0 +1,54 @@
+.intro-container{
+    margin: 0 auto;
+    width: 65%;
+    height: 70vh;
+    background-color: rgb(247, 201, 145);
+}
+.intro-contents{
+    position: relative;
+    margin-top: 7%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.intro-video {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+.intro-text-left {
+    position: absolute;
+    left: -95px;
+    top: 70%;
+    transform: rotate(270deg);
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-size: 18px;
+}
+.intro-text-right{
+    position: absolute;
+    right: -110px;
+    top: 23%;
+    transform: rotate(90deg);
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media (max-width: 900px){
+    .intro-container{
+        height: 65vh;
+        width: 90%;
+    }
+    .intro-text-left, .intro-text-right{
+        display: none;
+    }
+
+}
+@media (max-width: 550px){
+    .intro-container{
+        height: 55vh;
+        width: 100%;
+    }
+}
