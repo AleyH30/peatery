@@ -1,30 +1,37 @@
+import img1 from "../../../../../0Components/images/FILET-MIGNON-AU-POIVRE.jpg"
+import img2 from "../../../../../0Components/images/Oscar-Style.jpg"
+import img3 from "../../../../../0Components/images/pan-roasted-salmon.jpg"
+import img4 from "../../../../../0Components/images/roasted-shishito-peppers.jpg"
+import img5 from "../../../../../0Components/images/Steak-Potatoes.jpg"
+import img6 from "../../../../../0Components/images/surfnturf.jpg"
+
 const FoodImages = [
     {
         name: "Filet Mignon Au Poivre",
-        img: "./images/FILET-MIGNON-AU-POIVRE.jpg",
+        img: img1,
     },
     {
         name: 'Oscar Style',
-        img: './images/oscar-style.jpg',
+        img: img2,
     },
     {
         name: 'Pan Roasted Salmon',
-        img: './images/pan-roasted-salmon.jpg',
+        img: img3,
 
     },
     {
         name: 'Roasted Shishito Peppers',
-        img: './images/roasted-shishito-peppers.jpg',
+        img: img4,
 
     },
     {
         name: 'Steak and Potatoes',
-        img: './images/steak-potatoes.jpg',
+        img: img5,
 
     },
     {
         name: 'Surf and Turf',
-        img: './images/surfnturf.jpg',
+        img: img6,
 
     }
 
