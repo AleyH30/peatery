@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/peatery/static/css/main.21b4dafc.css",
+    "main.js": "/peatery/static/js/main.3145ce1b.js",
+    "index.html": "/peatery/index.html",
+    "main.21b4dafc.css.map": "/peatery/static/css/main.21b4dafc.css.map",
+    "main.3145ce1b.js.map": "/peatery/static/js/main.3145ce1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21b4dafc.css",
+    "static/js/main.3145ce1b.js"
+  ]
+}
