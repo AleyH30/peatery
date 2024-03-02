@@ -28,26 +28,28 @@ const Navbar = () => {
             <div className="nav-container">
                 <div className="nav-contents">
                     <h1 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Pinela's Eatery</h1>
-                    <div className="nav-links">
-                        <ul>
+                    <nav>
+                        <ul className="nav-links">
                             <li><button type="button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</button></li>
                             <li><button type="button" onClick={() => GoTo('.food-gallery')}>Menu</button></li>
                             <li><button type="button" onClick={() => GoTo('.reservations')}>Reservation</button></li>
                             <li><button type="button" onClick={() => GoTo('.contact-container')}>Contact</button></li>
                         </ul>
-                    </div>
+                    </nav>
                     <button className="sidebar-toggle-btn" onClick={() => setSidebarActive(!sidebarActive)}><FontAwesomeIcon icon={faBars} /></button>
                 </div>
             </div>
             <div className="sidebar-bg-closeout-btn" style={{ display: sidebarActive ? "block" : "none" }} onClick={() => setSidebarActive(false)}></div>
             <div className="sidebar-nav-container" style={{ display: sidebarActive ? "block" : "none" }}>
                 <button className="sidebar-x-closeout-btn" onClick={() => setSidebarActive(!sidebarActive)}>X</button>
-                <ul className="sidebar-nav-links">
-                    <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setSidebarActive(false); }}>Home</button></li>
-                    <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { GoTo('.food-gallery'); setSidebarActive(false); }}>Menu</button></li>
-                    <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { GoTo('.reservations'); setSidebarActive(false); }}>Reservation</button></li>
-                    <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { GoTo('.contact-container'); setSidebarActive(false); }}>Contact</button></li>
-                </ul>
+                <nav>
+                    <ul className="sidebar-nav-links">
+                        <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setSidebarActive(false); }}>Home</button></li>
+                        <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { GoTo('.food-gallery'); setSidebarActive(false); }}>Menu</button></li>
+                        <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { GoTo('.reservations'); setSidebarActive(false); }}>Reservation</button></li>
+                        <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { GoTo('.contact-container'); setSidebarActive(false); }}>Contact</button></li>
+                    </ul>
+                </nav>
             </div>
         </>
     )

@@ -46,13 +46,13 @@ const Contact = () => {
                     <br/>
                     <p>
                         <u><b>Hours:</b></u>
-                        <br />Sunday: 11:30 am - 11:30 pm
-                        <br />Monday: 11:30 am - 9:00 pm
-                        <br />Tuesday: 11:30 am - 9:00 pm
-                        <br />Wednesday: 11:30 am - 9:00 pm
-                        <br />Thursday: 11:30 am - 9:00 pm
-                        <br />Friday: 11:30 am - 11:30 pm
-                        <br />Saturday: 11:30 am - 11:30 pm
+                        <br />Sunday: 10:00 am - 11:00 pm
+                        <br />Monday: 10:00 am - 9:00 pm
+                        <br />Tuesday: 10:00 am - 9:00 pm
+                        <br />Wednesday: 10:00 am - 9:00 pm
+                        <br />Thursday: 10:00 am - 9:00 pm
+                        <br />Friday: 10:00 am - 11:00 pm
+                        <br />Saturday: 10:00 am - 11:00 pm
                     </p>
                 </div>
             </div>

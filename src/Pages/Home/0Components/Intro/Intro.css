@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 65%;
     height: 70vh;
-    background-color: rgb(247, 201, 145);
+    max-height: 700px;
 }
 .intro-contents{
     position: relative;

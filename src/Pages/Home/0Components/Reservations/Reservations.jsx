@@ -7,7 +7,7 @@ const Reservations = () => {
     return (
         <div className="reservations">
             <h3>Reservations</h3>
-            <p>To make a reservation please call us at (678)-9X0-7XX0 or use the contact form
+            <p>To make a reservation please call us at (678)-9X0-7XX0 or use the reservation form
                 below to reserve a date and time.</p>
             <div className="reservations-calendar">
                 <Calendar />

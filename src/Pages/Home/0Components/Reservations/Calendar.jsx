@@ -47,10 +47,10 @@ const Calendar = () => {
     }
 
     const ShouldDisableTime = (date, view) => {
-        if (day === "Monday" || day === 'Tuesday' || day==='Wednesday' || day === "Thursday" || day === "Friday"){
+        if (day === "Monday" || day === 'Tuesday' || day==='Wednesday' || day === "Thursday"){
             return view === 'hours' && (date.hour() < 10 || 20 < date.hour())
         }
-        else if (day === "Sunday" || day === "Saturday"){
+        else if (day=== "Friday" || day === "Sunday" || day === "Saturday"){
             return view === 'hours' && (date.hour() < 10 || 22 < date.hour())
         }
     }

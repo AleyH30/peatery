@@ -62,11 +62,15 @@ label{
 .submit-btn{
     width: 100px;
     height: 50px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(245, 245, 245);
     cursor: pointer;
     margin: 1.5% auto;
-    border: solid 0.5px;
+    border: solid 0.5px black;
+    color: black;
     font-size: 16px;
+}
+.submit-btn:hover{
+    background-color: rgb(235, 235, 235);
 }
 .signature{
     text-align: center;

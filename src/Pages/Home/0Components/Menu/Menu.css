@@ -6,7 +6,7 @@
 .menu-visibility-btn {
     font-size: 18px;
     color: black;
-    border: solid;
+    border: 1px black solid;
     text-decoration: none;
     cursor: pointer;
     background-color: white;

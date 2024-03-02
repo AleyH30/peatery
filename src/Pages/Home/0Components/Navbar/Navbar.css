@@ -21,20 +21,20 @@
     cursor: pointer;
     color: black;
 }
-.nav-links ul li {
+.nav-links li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
 }
-.nav-links ul li button {
-    color: black;
+.nav-links li button {
+    padding: 8px 12px;
+    border: none;
     text-decoration: none;
     font-size: 18px;
-    background-color: transparent;
-    border: none;
+    color: black;
     cursor: pointer;
+    background-color: transparent;
 }
-.nav-links li:hover{
+.nav-links button:hover{
     background-color: antiquewhite;
 }
 
