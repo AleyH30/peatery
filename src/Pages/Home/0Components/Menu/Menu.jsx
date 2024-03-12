@@ -8,14 +8,8 @@ const Menu = () => {
         <div className="menu-container">
             <button className="menu-visibility-btn" type="button" onClick={() => setMenuVisible(!menuVisible)}>
                 {menuVisible ? 'Hide Full Menu' : 'View Full Menu'}</button>
-            {menuVisible ? <MenuDisplay /> : null}
-        </div>
-    )
-}
-
-const MenuDisplay = () => {
-    return (
-        <div className="menu-items-container">
+            {!menuVisible ? null :
+            <div className="menu-items-container">
             <p className="menu-sect">Brunch</p>
                 <div className="col-2">
                     <div className="menu-item">
@@ -95,6 +89,7 @@ const MenuDisplay = () => {
                     </div>
                 </div>
                 
+        </div>}
         </div>
     )
 }
