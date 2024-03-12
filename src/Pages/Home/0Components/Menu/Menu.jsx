@@ -26,66 +26,66 @@ const Menu = () => {
                     </div>
                     <div className="menu-item">
                         <p>Brunch Elite Spread</p>
-                        <p>$35</p>
+                        <p>$75</p>
                     </div>
                     <div className="menu-item">
                         <p>Avocado Toast</p>
-                        <p>$15</p>
+                        <p>$25</p>
                     </div>
                     <div className="menu-item">
                         <p>Vegan Spread</p>
-                        <p>$25</p>
+                        <p>$55</p>
                     </div>
                 </div>
             <p className="menu-sect">Dinner</p>
                 <div className="col-2">
                     <div className="menu-item">
                         <p>Filet Mignon Au Poivre</p>
-                        <p>$50</p>
+                        <p>$70</p>
                     </div>
                     <div className="menu-item">
                         <p>Roasted Shishito Peppers</p>
-                        <p>$20</p>
+                        <p>$30</p>
                     </div>
                     <div className="menu-item">
                         <p>Oscar Style</p>
-                        <p>$35</p>
+                        <p>$85</p>
                     </div>
                     <div className="menu-item">
                         <p>Pan Roasted Salmon</p>
-                        <p>$40</p>
+                        <p>$65</p>
                     </div>
                     <div className="menu-item">
                         <p>Stuffed Bread</p>
-                        <p>$20</p>
-                    </div>
-                    <div className="menu-item">
-                        <p>Steak & Potatoes</p>
-                        <p>$30</p>
-                    </div>
-                    <div className="menu-item">
-                        <p>Surf & Turf</p>
-                        <p>$35</p>
-                    </div>
-                    <div className="menu-item">
-                        <p>Avocado Toast</p>
-                        <p>$15</p>
-                    </div>
-                    <div className="menu-item">
-                        <p>Spaghetti & Meatballs</p>
-                        <p>$35</p>
-                    </div>
-                    <div className="menu-item">
-                        <p>Vegan Spread</p>
                         <p>$25</p>
                     </div>
                     <div className="menu-item">
+                        <p>Steak & Potatoes</p>
+                        <p>$80</p>
+                    </div>
+                    <div className="menu-item">
+                        <p>Surf & Turf</p>
+                        <p>$55</p>
+                    </div>
+                    <div className="menu-item">
+                        <p>Avocado Toast</p>
+                        <p>$25</p>
+                    </div>
+                    <div className="menu-item">
+                        <p>Spaghetti & Meatballs</p>
+                        <p>$60</p>
+                    </div>
+                    <div className="menu-item">
+                        <p>Vegan Spread</p>
+                        <p>$55</p>
+                    </div>
+                    <div className="menu-item">
                         <p>Alfredo Pasta</p>
-                        <p>$30</p>
+                        <p>$50</p>
                     </div>
                     <div className="menu-item">
                         <p>Toasted Chicken Chips</p>
-                        <p>$30</p>
+                        <p>$40</p>
                     </div>
                 </div>
                 
