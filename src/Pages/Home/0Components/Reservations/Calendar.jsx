@@ -64,7 +64,7 @@ const Calendar = () => {
         <div className="reservation-form">
             <label className="rf-label" htmlFor="fname">Full Name</label>
             <input className="rf-input-name" type="text" id="fname" name="fname" value={fullName} onChange={(e) => setFullName(e.target.value)}/>
-            <p className="error">{submitClicked && fullName === ""? "Please set valid name" : console.log(null)}</p>
+            <p className="error">{submitClicked && fullName === ""? "Please set valid name" : null}</p>
             <label className="rf-label" htmlFor="partynumber" >Party of</label>
             <select className="rf-input-number" name="number" id="partynumber" value={guestNumber} onChange={(e) => setGuestNumber(e.target.value)}>
                 <option value={1}>1</option>
@@ -100,7 +100,7 @@ const Calendar = () => {
                         required
                         />
                     </div>
-                    <p className="error">{(submitClicked && selectedTime === null) || error !== null? "Please select valid time" : console.log(null)}</p>
+                    <p className="error">{(submitClicked && selectedTime === null) || error !== null? "Please select valid time" : null}</p>
                 </LocalizationProvider>
             </div>
             <div>
