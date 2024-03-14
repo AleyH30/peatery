@@ -89,7 +89,7 @@ const Calendar = () => {
                         required
                         />
                     </div>
-                    <p className="error">{submitClicked && selectedDate === null? "Please select valid date" : console.log(null)}</p>
+                    <p className="error">{submitClicked && selectedDate === null? "Please select valid date" : null}</p>
                     <div>
                         <MobileTimePicker className="rf-input"
                         label='Time'
