@@ -84,7 +84,9 @@
 }
 .sidebar-nav-links li{
     list-style: none;
-    border-bottom: 1px solid;
+    border-bottom: 0.5px solid black;
+    width: 90%;
+    margin: auto;
 }
 .sidebar-nav-menu-btn {
     color: black;
