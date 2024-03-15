@@ -25,6 +25,9 @@
     border: 1px solid black;
     text-align: center;
 }
+.rf-input-number option{
+    text-align: center;
+}
 .rf-input{
     width: 300px;
     background-color: white;
