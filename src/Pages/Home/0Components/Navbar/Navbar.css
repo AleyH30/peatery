@@ -17,7 +17,7 @@
 }
 .nav-contents h1 {
     margin-left: 2%;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     color: black;
 }
@@ -44,7 +44,7 @@
     display: none;
     width: 50px;
     height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -56,15 +56,15 @@
     top: 10px;
     right: 15px;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
 }
 .sidebar-bg-closeout-btn{
     position: fixed;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     background-color: rgba(99, 99, 99, 0.808);
     z-index: 101;
 }
@@ -74,7 +74,7 @@
     top: 0;
     right: 0;
     width: 280px;
-    height: 100vh;
+    height: 100dvh;
     background-color: white;
     z-index: 102;
     
@@ -91,7 +91,7 @@
 .sidebar-nav-menu-btn {
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     background-color: transparent;
     border: none;
     cursor: pointer;
