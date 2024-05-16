@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [sidebarActive, setSidebarActive] = useState(false);
@@ -40,8 +40,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="sidebar-bg-closeout-btn" style={{ display: sidebarActive ? "block" : "none" }} onClick={() => setSidebarActive(false)}></div>
-            <div className="sidebar-nav-container" style={{ display: sidebarActive ? "block" : "none" }}>
-                <button className="sidebar-x-closeout-btn" onClick={() => setSidebarActive(!sidebarActive)}>X</button>
+            <div className="sidebar-nav-container" style={{ display: sidebarActive ? "flex" : "none" }}>
+                <button className="sidebar-x-closeout-btn" onClick={() => setSidebarActive(!sidebarActive)}><FontAwesomeIcon icon={faXmark} /></button>
                 <nav>
                     <ul className="sidebar-nav-links">
                         <li><button className="sidebar-nav-menu-btn" type="button" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setSidebarActive(false); }}>Home</button></li>
