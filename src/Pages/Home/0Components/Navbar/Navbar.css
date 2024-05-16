@@ -79,6 +79,7 @@
     height: 100dvh;
     box-shadow: 0px 5px 10px 5px rgba(81, 81, 81, 0.719);
     background-color: white;
+    overflow-y: auto;
     z-index: 102;
 }
 .sidebar-nav-container nav{
