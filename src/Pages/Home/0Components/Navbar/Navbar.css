@@ -1,7 +1,7 @@
 .nav-container {
     position: sticky;
     top: 0;
-    height: 60px;
+    height: 45px;
     width: 100%;
     background-color: white;
     z-index: 99;

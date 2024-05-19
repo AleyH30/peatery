@@ -77,3 +77,9 @@
     }
 
 }
+@media (max-height: 550px){
+    .bigger-image-container{
+        max-height: 60%;
+        max-width: 60%;
+    }
+}
