@@ -60,14 +60,14 @@ label{
     display: block;
 }
 .submit-btn{
-    width: 100px;
-    height: 50px;
+    width: 90px;
+    height: 40px;
     background-color: rgb(245, 245, 245);
     cursor: pointer;
     margin: 1.5% auto;
     border: solid 0.5px black;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
 }
 .submit-btn:hover{
     background-color: rgb(235, 235, 235);

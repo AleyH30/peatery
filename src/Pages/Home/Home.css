@@ -7,7 +7,8 @@
     gap: 5px;
 }
 .dining-img{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .dining-img img{
     width: 100%;

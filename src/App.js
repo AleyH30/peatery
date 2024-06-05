@@ -8,12 +8,15 @@ import Home from "./Pages/Home/Home";
 const App = () => {
     
     return (
-        <HashRouter>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                {/*<Route path='*' element={<NotFound />} />*/}
-            </Routes>
-        </HashRouter>
+        <div className="app">
+            <HashRouter>
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                    {/*<Route path='*' element={<NotFound />} />*/}
+                </Routes>
+            </HashRouter>
+        </div>
+        
     )
 }
 

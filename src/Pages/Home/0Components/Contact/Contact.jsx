@@ -56,7 +56,7 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
-            <p className="signature">Made by ANH</p>
+            <p className="signature">ANH</p>
         </div>
     )
 }

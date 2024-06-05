@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInfinity } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
 import Navbar from "./0Components/Navbar/Navbar";
+import diningImg from "../../0Components/images/dining.jpg"
 
 
 const Home = () => {
@@ -40,7 +41,7 @@ const Home = () => {
                 <FontAwesomeIcon icon={faInfinity}/>
             </div>
             <div className="dining-img">
-                <img src="./images/dining.jpg" alt="" />
+                <img src={diningImg} alt="" />
             </div>
             <Contact />
         </div>
