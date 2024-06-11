@@ -28,7 +28,7 @@ const FoodGallery = () => {
     
     return (
         <div className="food-gallery">
-            <h1>A Little Taste...</h1>
+            <p>A Little Taste...</p>
             <div className="food-gallery-container">
                 {FoodImages.map((image, index) => {
                     return (
