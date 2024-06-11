@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/peatery/static/css/main.2c27f527.css",
-    "main.js": "/peatery/static/js/main.8fcdf958.js",
+    "main.css": "/peatery/static/css/main.371aa1a6.css",
+    "main.js": "/peatery/static/js/main.453531de.js",
     "static/media/promo.mp4": "/peatery/static/media/promo.0cfa83378b99a186b137.mp4",
     "static/media/roasted-shishito-peppers.jpg": "/peatery/static/media/roasted-shishito-peppers.7d91e7cc39334902389b.jpg",
     "static/media/Steak-Potatoes.jpg": "/peatery/static/media/Steak-Potatoes.93a14187521e36a7165a.jpg",
@@ -11,11 +11,11 @@
     "static/media/FILET-MIGNON-AU-POIVRE.jpg": "/peatery/static/media/FILET-MIGNON-AU-POIVRE.66a4c377c82fdb0bf100.jpg",
     "static/media/pan-roasted-salmon.jpg": "/peatery/static/media/pan-roasted-salmon.3549da76f452a7ecbfe7.jpg",
     "index.html": "/peatery/index.html",
-    "main.2c27f527.css.map": "/peatery/static/css/main.2c27f527.css.map",
-    "main.8fcdf958.js.map": "/peatery/static/js/main.8fcdf958.js.map"
+    "main.371aa1a6.css.map": "/peatery/static/css/main.371aa1a6.css.map",
+    "main.453531de.js.map": "/peatery/static/js/main.453531de.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c27f527.css",
-    "static/js/main.8fcdf958.js"
+    "static/css/main.371aa1a6.css",
+    "static/js/main.453531de.js"
   ]
 }
